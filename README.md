@@ -1,4 +1,4 @@
-# Insight Data Engineering - Coding Challenge 2008
+# Insight Data Engineering - Coding Challenge 2018
 
 This project aims at solving the 2018 Insight Data Engineering - [Coding Challenge](https://github.com/InsightDataScience/donation-analytics). We remand to the README file of the previous link for a detailed discussion of the challenge; here we summarize only the most relevant details. We need to analyze the electoral campaign contributions published by the Federal Election Commission regularly publishes. The goal is to identify recurrent donors, crunch a few values and write the results into an output file, "repeat_donors.txt"
 
