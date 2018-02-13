@@ -54,6 +54,6 @@ df['percentile_contribution'] = df.groupby(['CMTE_ID', 'ZIP_CODE', 'year']).TRAN
     .round().astype(int).values #running percentile of contributions received from repeat donors to a recipient streamed in so far for this zip code and calendar year
 
 
-df.loc[:,['CMTE_ID', 'ZIP_CODE', 'year','percentile_contribution','total_dollar_amount','total_number_contributions']].to_csv(sys.argv[3],sep='|', index=False, header=False) #writing output
+df.loc[:,['CMTE_ID', 'ZIP_CODE', 'year','percentile_contribution','total_dollar_amount','total_number_contributions']].to_csv(sys.argv[3].strip(),sep='|', index=False, header=False) #writing output
 
 
